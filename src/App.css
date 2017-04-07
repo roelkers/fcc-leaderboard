@@ -1,0 +1,81 @@
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+img{
+  width: 40px;
+  height: 40px;
+  background-color: #E7FF45;
+  margin: 2px;
+  border: 1px solid grey;
+  border-radius: 2px;
+}
+
+span{
+  font-family: "Ubuntu";
+}
+
+.leaderboard{
+  display:flex;
+  flex-direction: column;
+  background-color: grey;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 900px;
+}
+
+.row{
+  display: flex;
+  justify-content: space-around;
+  flex: 1 1 0;
+}
+
+.headcell{
+  padding-left: 5px;
+  background-color: green;
+  border: 2px solid black;
+}
+
+.cell{
+  padding-left: 5px;
+  background-color: #E7FF45;
+  border: 2px solid grey;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+  .itemNumber{
+  width: 20px;
+}
+
+.userName{
+  width: 180px;
+}
+
+.pointsRecent{
+  width: 60px;
+}
+.pointsAllTime{
+  width: 60px;
+}
+
+@media screen and (min-width:640px) {
+  .itemNumber{
+  width: 40px;
+}
+
+.userName{
+  width: 360px;
+}
+
+.pointsRecent{
+  width: 120px;
+}
+.pointsAllTime{
+  width: 120px;
+}
+}
